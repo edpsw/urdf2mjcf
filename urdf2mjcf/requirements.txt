@@ -1,0 +1,8 @@
+# requirements.txt
+
+colorlogging
+mujoco
+numpy
+pydantic
+scipy
+trimesh
