@@ -23,6 +23,15 @@ pip install .
 
 ### 基本转换
 
+# urdf中pelvis link前面添加adding a freejoint
+```bash
+    <!-- [CAUTION] uncomment when convert to mujoco -->
+  <link name="world"></link>
+  <joint name="floating_base_joint" type="floating">
+    <parent link="world"/>
+    <child link="pelvis_link"/>
+```
+
 ```bash
 cd /path/to/your/robot-description/
 urdf2mjcf input.urdf --output mjcf/output.xml
