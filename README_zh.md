@@ -23,7 +23,7 @@ pip install .
 
 ### 基本转换
 
-# urdf中pelvis link前面添加adding a freejoint
+#### urdf中pelvis link前面添加adding a freejoint
 ```bash
     <!-- [CAUTION] uncomment when convert to mujoco -->
   <link name="world"></link>
