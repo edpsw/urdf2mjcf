@@ -13,7 +13,7 @@ URDF到MJCF转换工具，支持stl、obj、dae格式，自动识别urdf中的mi
 
 ```bash
 git clone https://github.com/TATP-233/urdf2mjcf.git  or  https://github.com/kscalelabs/urdf2mjcf.git
-conda create -n urdf2mjcf python3.11
+conda create -n urdf2mjcf python=3.11
 conda activate urdf2mjcf
 cd urdf2mjcf
 pip install .
